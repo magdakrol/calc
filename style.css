@@ -1,0 +1,111 @@
+html {
+  background: #efefef;
+  font-family: 'Roboto';
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+th {
+  border-bottom: black 1px solid;
+  text-align: left;
+}
+
+.brutto {
+  background: #efefef;
+  font-weight: 700;
+}
+
+table input {
+  background: white;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+input {
+  -webkit-appearance: none;
+  border: #efefef solid 1px;
+  background: #efefef;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: #193441;
+}
+
+.productId input {
+  background: #efefef;
+  color: #282828;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.addButton {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.addButton span {
+  cursor: pointer;
+  background: #a1f814;
+  color: white;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+th,
+td,
+label {
+  font-size: 13px;
+  font-weight: 300;
+  color: #282828;
+}
+
+.delivery {
+  color: #888;
+}
+
+.delivery div {
+  border-left: 1px solid #888;
+}
+
+.delivery input {
+  color: #888;
+}
+
+.summary div {
+  border-left: 1px solid #282828;
+}
+
+.summary input {
+  color: #282828;
+}
+
+.delivery input,
+.summary input {
+  cursor: auto;
+  width: 160px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.summary div,
+.delivery div {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.summary div label,
+.delivery div label {
+  display: block;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

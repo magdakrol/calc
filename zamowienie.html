@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <div class="calculate">
+        <h4>Produkty</h4>
+              <!-- <div id="field_container_s5a86d306b1008_shopOrderRows" class="field-container"> -->
+                    <span id="field_widget_s5a86d306b1008_shopOrderRows">
+                        
+                    <table>
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    Identyfikator<br> produktu
+                                </th>
+
+                                <th class="required">
+                                    Ilość
+                                </th>
+
+                                <th>
+                                    Cena netto
+                                </th>
+                                <th>
+                                    Cena promocyjna
+                                    <Br>netto
+                                </th>
+                                <th>
+                                    Vat (%)
+                                </th>
+                                <th>
+                                    Cena brutto
+                                </th>
+                                <th>
+                                    Cena promocyjna<br>brutto
+                                </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td class="productId">
+                                        <input type="number" id="s5a86d306b1008_shopOrderRows_0_productId" name="s5a86d306b1008[shopOrderRows][0][productId]" readonly="readonly"
+                                            value="1">
+
+
+                                    </td>
+
+                                    <td>
+                                        <input type="text" id="s5a86d306b1008_shopOrderRows_0_wariantQuantity" name="s5a86d306b1008[shopOrderRows][0][wariantQuantity]"
+                                            required="required" data-precision="2" data-min="0.01" value="1">
+
+
+                                    </td>
+
+                                    <td>
+                                        <input type="text" id="s5a86d306b1008_shopOrderRows_0_wariantPriceNetto" name="s5a86d306b1008[shopOrderRows][0][wariantPriceNetto]"
+                                            value="0.00">
+
+
+                                    </td>
+                                    <td>
+                                        <input type="text" id="s5a86d306b1008_shopOrderRows_0_wariantPromotionPriceNetto" name="s5a86d306b1008[shopOrderRows][0][wariantPromotionPriceNetto]"
+                                            value="">
+
+
+                                    </td>
+                                    <td>
+                                        <input type="text" id="s5a86d306b1008_shopOrderRows_0_wariantVat" name="s5a86d306b1008[shopOrderRows][0][wariantVat]" class="moneyFixerValue form-control"
+                                            value="23">
+
+
+                                    </td>
+                                    <td>
+                                        <input class="brutto" type="text" id="s5a86d306b1008_shopOrderRows_0_wariantPriceBrutto" name="s5a86d306b1008[shopOrderRows][0][wariantPriceBrutto]"
+                                            readonly="readonly" value="0.00">
+
+
+                                    </td>
+                                    <td>
+                                        <input class="brutto" type="text" id="s5a86d306b1008_shopOrderRows_0_wariantPromotionPriceBrutto" name="s5a86d306b1008[shopOrderRows][0][wariantPromotionPriceBrutto]"
+                                            readonly="readonly" value="0.00">
+
+
+                                    </td>
+                                </tr>
+                           
+                           
+                            
+              </div>
+              </div>
+                      
+                  
+
+                      
+                            <tr>
+
+                                <td class="productId">
+                                    <input type="number" id="s5a86d306b1008_shopOrderRows_1_productId" name="s5a86d306b1008[shopOrderRows][1][productId]" readonly="readonly"
+                                        value="2">
+
+
+                                </td>
+
+                                <td>
+                                    <input type="text" id="s5a86d306b1008_shopOrderRows_1_wariantQuantity" name="s5a86d306b1008[shopOrderRows][1][wariantQuantity]"
+                                        required="required" data-precision="2" data-min="0.01" value="1">
+
+
+                                </td>
+
+                                <td>
+                                    <input type="text" id="s5a86d306b1008_shopOrderRows_1_wariantPriceNetto" name="s5a86d306b1008[shopOrderRows][1][wariantPriceNetto]"
+                                        value="0.00">
+
+
+                                </td>
+                                <td>
+                                    <input type="text" id="s5a86d306b1008_shopOrderRows_1_wariantPromotionPriceNetto" name="s5a86d306b1008[shopOrderRows][1][wariantPromotionPriceNetto]"
+                                        value="">
+
+
+                                </td>
+                                <td>
+                                    <input type="text" id="s5a86d306b1008_shopOrderRows_1_wariantVat" name="s5a86d306b1008[shopOrderRows][1][wariantVat]" class="moneyFixerValue form-control"
+                                        value="23">
+
+
+                                </td>
+                                <td>
+                                    <input class="brutto" type="text" id="s5a86d306b1008_shopOrderRows_1_wariantPriceBrutto" name="s5a86d306b1008[shopOrderRows][1][wariantPriceBrutto]"
+                                        readonly="readonly" value="0.00">
+
+
+                                </td>
+                                <td>
+                                    <input class="brutto" type="text" id="s5a86d306b1008_shopOrderRows_1_wariantPromotionPriceBrutto" name="s5a86d306b1008[shopOrderRows][1][wariantPromotionPriceBrutto]"
+                                        readonly="readonly" value="0.00">
+
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </span>
+                    <div class="addButton">
+                        <span>Dodaj produkt</span>
+                    </div>
+        
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+<!--dostawa ------>
+<div class="delivery">
+    <h4>Koszt dostawy</h4>
+                                <div id="calc s5a86d306b1008_deliveryTotalCostNetto">
+
+
+                                    <label for="s5a86d306b1008_deliveryTotalCostNetto">
+
+                                        Całkowitykoszt<br>dostawy netto
+                                    </label>
+
+
+                                   
+                                        <input type="text" id="s5a86d306b1008_deliveryTotalCostNetto" name="s5a86d306b1008[deliveryTotalCostNetto]" readonly="readonly"
+                                             value="15">
+
+
+                                   
+                                </div>
+
+                                <div id="calc s5a86d306b1008_deliveryTotalVatValue">
+
+
+                                    <label for="s5a86d306b1008_deliveryTotalVatValue">
+
+                                        Całkowita wartość<br>vat dla dostawy
+                                    </label>
+
+
+                                    
+                                        <input type="text" id="s5a86d306b1008_deliveryTotalVatValue" name="s5a86d306b1008[deliveryTotalVatValue]" readonly="readonly"
+                                           value="3.45">
+                                 
+                                </div>
+
+                                <div id="calc s5a86d306b1008_deliveryTotalCostBrutto">
+
+
+                                    <label for="s5a86d306b1008_deliveryTotalCostBrutto">
+
+                                        Całkowity koszt<br>dostawy brutto
+                                    </label>
+
+
+                                  
+                                        <input type="text" id="s5a86d306b1008_deliveryTotalCostBrutto" name="s5a86d306b1008[deliveryTotalCostBrutto]" readonly="readonly"
+                                             value="18.45">
+
+
+                                   
+                                </div>
+
+                                <div id="calc s5a86d306b1008_deliveryTotalQuantity">
+
+
+                                    <label for="s5a86d306b1008_deliveryTotalQuantity">
+
+                                        Ilość<br>przesyłek
+                                    </label>
+
+
+                                    
+                                        <input type="number" id="s5a86d306b1008_deliveryTotalQuantity" name="s5a86d306b1008[deliveryTotalQuantity]" readonly="readonly"
+                                            value="1">
+
+
+                                   
+                                </div>
+                            </div>
+<!--koniec dostawy ------>
+                   
+<!--podsumowanie ------>
+              <div class="summary">
+                            <h4 class="box-title">
+                                Podsumowanie
+                            </h4>
+                      
+                    
+
+                                <div  id="calc s5a86d306b1008_totalNetto">
+
+
+                                    <label  for="s5a86d306b1008_totalNetto">
+
+                                        Wartośc<br>zamówienia netto
+                                    </label>
+
+
+                                  
+                                        <input type="text" id="s5a86d306b1008_totalNetto" name="s5a86d306b1008[totalNetto]" readonly="readonly" class="moneyFixerValue form-control"
+                                            value="0.00">
+
+
+                                   
+                                </div>
+
+                                <div id="calc s5a86d306b1008_totalVatValue">
+
+
+                                    <label for="s5a86d306b1008_totalVatValue">
+
+                                        Sumaryczna<br>wartość podatku
+                                    </label>
+
+
+                                    
+                                        <input type="text" id="s5a86d306b1008_totalVatValue" name="s5a86d306b1008[totalVatValue]" readonly="readonly" class="moneyFixerValue form-control"
+                                            value="0.00">
+
+                                </div>
+
+                                <div id="calc s5a86d306b1008_totalBrutto">
+
+
+                                    <label for="s5a86d306b1008_totalBrutto">
+
+                                        Wartość<br>zamówienia brutto
+                                    </label>
+
+
+                                    
+                                        <input type="text" id="s5a86d306b1008_totalBrutto" name="s5a86d306b1008[totalBrutto]" readonly="readonly" class="moneyFixerValue form-control"
+                                            value="0.00">
+
+
+                                  
+                                </div>
+
+                                <div id="calc s5a86d306b1008_totalBruttoWithDeliveryAndPayment">
+
+
+                                    <label for="s5a86d306b1008_totalBruttoWithDeliveryAndPayment">
+
+                                        Całkowity<br>koszt zamówienia
+                                    </label>
+
+
+                                    
+                                        <input type="text" id="s5a86d306b1008_totalBruttoWithDeliveryAndPayment" name="s5a86d306b1008[totalBruttoWithDeliveryAndPayment]"
+                                            readonly="readonly" value="0.00">
+
+
+                                  
+                                </div>
+                            </div>
+<!--koniec podsumowania---->
+                     
+</div>
+                    <script type="text/javascript" src="./script.js"></script>
+
+
+</body>
+
+</html>
